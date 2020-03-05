@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cuartatarea</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/sal.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+	<header class="header">
+		<div class="header__back">
+			<button class="header__burger">Menú</button>
+		</div>
+		<div class="header__espacio">
+			<a href="index.html"><img src="img/logo.png" class="logo"></a>
+			<nav class="header__nav">
+				<ul class="header__menu">
+					<li class="menu__item"><a href="nosotros.html" class="menu__link">NOSOTROS</a></li>
+					<li class="menu__item"><a href="servicios.html" class="menu__link">SERVICIOS</a></li>
+					<li class="menu__item"><a href="proyectos.html" class="menu__link">RESULTADOS</a></li>
+					<li class="menu__item"><a href="cotizacion.html" class="menu__link">COTIZACIÓN</a></li>
+					<li class="menu__item"><a href="contacto.html" class="menu__link">CONTACTO</a></li>
+				</ul>
+			</nav>
+			<h2 class="header__title">Central telefónica</h2>
+			<p class="header__text">330 3731 / 330 - 3741</p>
+			<h2 class="header__title">Central policial</h2>
+			<p class="header__text">105 / 964-605-570</p>
+			<p class="header__text">Av. Iquitos N° 500, Lima 13 - Perú</p>
+			<h2 class="header__title">Quejas y sugerencias</h2>
+			<p class="header__text">fiscateescucha@munilavictoria.gob.pe</p>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__cotizacion">
+			<div class="cotizacion__space01">
+				<ul class="cotizacion__list">
+					<li class="cotizacion__item"><a href="#ct-box1" class="cotizacion__link"><img src="images/cotizacion/da.png" width="50"></a></li>
+					<li class="cotizacion__item"><a href="#ct-box2" class="cotizacion__link"><img src="images/cotizacion/basket.png" width="50" height="45"></a></li>
+				</ul>
+			</div>
+			<div class="cotizacion__space02">
+				<div class="ct-box01" id="ct-box1">
+					<h2 class="cotizacion__title">Empieza tu Negocio</h2>
+					<div class="ct-box01__grid">
+						<div class="ct-box01__grid01">
+							<h2 class="ct-box01__title01">Datos de la empresa</h2>
+							<form class="ct-box01__form">
+								<div class="ct-box-control">
+									<input type="text" id="largo" name="user_largo" class="ct-box01__item"> 
+									<label for="largo" class="ct-box01__label">Largo</label>	
+			   		 			</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="text" id="ancho" name="user_ancho" class="ct-box01__item">
+			   		 				<label for="ancho" class="ct-box01__label">Ancho</label>	
+			   		 			</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="text" id="friz" name="user_friz" class="ct-box01__item">  
+		   		 					<label for="friz" class="ct-box01__label">Franja izquierda</label>
+		   		 				</div>
+		   		 				<div class="ct-box-control">
+			   		 				<input type="text" id="largo" name="user_frde" class="ct-box01__item"> 
+			   		 				<label for="largo" class="ct-box01__label">Franja derecha</label>
+		   		 				</div>
+		   		 				<div class="ct-box-control">
+		   		 					<input type="text" id="largo" name="user_frsu" class="ct-box01__item">
+		   		 					<label for="largo" class="ct-box01__label">Franja superior</label> 
+		   		 				</div>
+		   		 				<div class="ct-box-control">
+		   		 					<input type="text" id="frin" name="user_frin" class="ct-box01__item">
+		   		 					<label for="frin" class="ct-box01__label">Franja inferior</label>
+								</div>
+							</form>
+						</div>
+						<div class="ct-box01__grid02">
+							<h2 class="ct-box01__title02">Datos Personales</h2>
+							<form class="ct-box01__form">
+								<div class="ct-box-control">
+									<input type="text" id="name" name="user_name"class="ct-box01__item">
+									<label for="name" class="ct-box01__label">Nombre</label>
+								</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="text" id="empresa" name="user_empresa"class="ct-box01__item">	
+			   		 				<label for="empresa" class="ct-box01__label">Empresa(opcional)</label>
+								</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="text" id="name" name="user_name"class="ct-box01__item">
+			   		 				<label for="name" class="ct-box01__label">Dirección postal</label>
+								</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="text" id="name" name="user_name"class="ct-box01__item">
+			   		 				<label for="name" class="ct-box01__label">Ciudad</label>
+								</div>
+			   		 			<div class="ct-box-control">
+			   		 				<input type="email" id="mail" name="user_mail" class="ct-box01__item">	
+			   		 				<label for="mail" class="ct-box01__label">Correo electrónico:</label>			  	
+								</div>
+			    				<div class="ct-box-control">
+			    					<input type="tel" id="tel" name="user_tel" class="ct-box01__item">	
+			    					<label for="mail" class="ct-box01__label">Teléfono</label>
+								</div>
+							</form>
+						</div>
+					</div>
+					<form>
+						<div class="ct-box-control">
+							<textarea id="msg" name="user_message" class="ct-box01__item ct-box01__item--message"></textarea>
+							<label for="msg" class="ct-box01__label">Mensaje</label>
+		    			</div>
+					</form>
+					<button class="ct-box01__button"><a href="#ct-box2" class="ct-box01__buttoncolor">Enviar</a></button>
+				</div>
+				<div class="ct-box01 ct-box01-01" id="ct-box2">
+					<div class="pr-box001">
+						<img src="images/cotizacion/01.jpg" class="pr-box001__img">
+						<div class="pr-box001__flex">
+							<button class="pr-box001__button"><a href="images/cotizacion/01.jpg" class="pr-box001__button--color" data-fancybox="uno">Foto</a></button>
+						</div>
+						<p class="pr-box001__text">Gamarra</p>
+					</div>
+					<div class="pr-box001">
+						<img src="images/cotizacion/02.jpg" class="pr-box001__img">
+						<div class="pr-box001__flex">
+							<button class="pr-box001__button"><a href="images/cotizacion/02.jpg" class="pr-box001__button--color" data-fancybox="dos">Foto</a></button>
+						</div>
+						<p class="pr-box001__text">Mercado de<br>frutas y verduras</p>
+					</div>
+					<div class="pr-box001">
+						<img src="images/cotizacion/03.jpg" class="pr-box001__img">
+						<div class="pr-box001__flex">
+							<button class="pr-box001__button"><a href="images/cotizacion/03.jpg" class="pr-box001__button--color" data-fancybox="tres">Foto</a></button>
+						</div>
+						<p class="pr-box001__text">La Parada</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<p class="footer__text">Copyright © Municipalidad de La Victoria 2019</p>
+	</footer>
+	<div class="slick">
+		<div><img src="img/background/b_2.jpg" class="slick__img"></div>
+		<div><img src="img/background/b_3.jpg" class="slick__img"></div>
+		<div><img src="img/background/b_4.jpg" class="slick__img"></div>
+		<div><img src="img/background/b_5.jpg" class="slick__img"></div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/sal.js"></script>
+	<script>
+	sal();
+	</script>
+</body>
+</html>
